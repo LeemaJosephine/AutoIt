@@ -1,0 +1,14 @@
+Day:30
+-------
+Commands and methods:
+
+1. ControlClick() -> simulate a mouse click on window element.
+2. ControlGetText() -> Retreive the text
+3. ControlSetText() -> simulate sendkeys
+4. ControlFocus() 
+5. Sleep -> to provide delay
+6. WinClose -> close the window.
+
+ControlFocus("Open","","Edit1");
+ControlSetText("Open","","Edit1","C:\Users\Admin\Downloads\Java CheatSheet.pdf");
+ControlClick("Open","","Button1");
